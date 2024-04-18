@@ -1,0 +1,90 @@
+{
+  "project_info": {
+    "project_number": "824489040512",
+    "project_id": "moto-events-biker",
+    "storage_bucket": "moto-events-biker.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:824489040512:android:4ddc56667a6fbd5dd66465",
+        "android_client_info": {
+          "package_name": "com.example.moto_events"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "824489040512-e6e921dsj0ob1gsjde5cfecjt4nl5gnm.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.moto_events",
+            "certificate_hash": "53eedc99845f658d1322805664a767cf465183a1"
+          }
+        },
+        {
+          "client_id": "824489040512-0q7p2j7snntu34gsrfl5bug350chnc5f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDIltCNdHemIiW_CkKRBSiPb9LnG96KfqU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "824489040512-0q7p2j7snntu34gsrfl5bug350chnc5f.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "824489040512-ish82jh6javpdjoi72mou42hg4h6qu6h.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.motoEvents"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:824489040512:android:e86be64b2ede2b11d66465",
+        "android_client_info": {
+          "package_name": "com.motoevents1000km"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "824489040512-0q7p2j7snntu34gsrfl5bug350chnc5f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDIltCNdHemIiW_CkKRBSiPb9LnG96KfqU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "824489040512-0q7p2j7snntu34gsrfl5bug350chnc5f.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "824489040512-ish82jh6javpdjoi72mou42hg4h6qu6h.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.motoEvents"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
