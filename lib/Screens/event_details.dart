@@ -883,7 +883,6 @@ class _EventDetailScreenState extends State<EventDetailScreen> {
                       _confettiControllerRight.play();
                     }
                     return Stack(
-
                       children: [
                         Align(
                         alignment: Alignment.centerLeft,
@@ -940,7 +939,6 @@ class _EventDetailScreenState extends State<EventDetailScreen> {
       },
     );
   }
-
 
   Widget leaderboardWidget(EventResults eventResults) {
     return Center(

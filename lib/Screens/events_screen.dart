@@ -167,8 +167,6 @@ class EventListPageState extends State<EventListPage> {
           ? List.from(allEvents)
           : allEvents.where((event) => event.name.toLowerCase().contains(query.toLowerCase())).toList();
 
-
-      print("Filtered Events Count: ${filteredEvents.length}");
     });
   }
 

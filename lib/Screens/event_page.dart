@@ -21,6 +21,7 @@ import 'package:image_picker/image_picker.dart';
 import 'package:collection/collection.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import '../Services/location_service.dart';
+import 'events_screen.dart';
 
 class EventPage extends StatefulWidget {
   final Event event;
@@ -137,6 +138,12 @@ class EventPageState extends State<EventPage> {
       if (!_isControllerClosed &&
           currentLocation.latitude != null &&
           currentLocation.longitude != null) {
+        if (DateTime.now().isAfter(widget.event.endTime!)) {
+          Navigator.pushReplacement(
+              context,
+              MaterialPageRoute(
+                  builder: (context) => const EventListPage()));
+        }
         var connectivityResult = await (Connectivity().checkConnectivity());
         await _uploadStoredLocations();
         if (previousLocation != null) {
